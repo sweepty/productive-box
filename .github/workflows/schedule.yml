@@ -11,8 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Update gist
-        uses: maxam2017/productive-box@master
+        uses: sweepty/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 72059260cf8ef489300ab691bab33e19
+          GIST_ID: fca9d3adc8e554bbdceff6702ed4d34c
           TIMEZONE: Asia/Seoul
